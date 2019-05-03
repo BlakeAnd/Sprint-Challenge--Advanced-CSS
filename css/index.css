@@ -184,7 +184,7 @@ header .top h1 {
   margin: 20px;
 }
 header .top nav {
-  width: 70%;
+  width: 500px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
