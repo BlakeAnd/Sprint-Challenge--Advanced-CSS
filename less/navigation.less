@@ -5,12 +5,13 @@ header{
     align-items: center;
     .top{
         width: 100%;
-        background: @wild-sand;
+        background: @wild-sand-opaque;
         .flex(column);
         align-items: center;
         position: fixed;
         
         @media @phone{
+            background: @wild-sand;
             position: relative;
         }
         h1{
