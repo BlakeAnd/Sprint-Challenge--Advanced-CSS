@@ -1,1 +1,16 @@
 // Mixins Here
+
+//MINIMUM 2, 1 OF WHICH IS PARAMETRIC FOR THE BUTTON
+.flex(@direction){
+    display: flex;
+    flex-direction: @direction;
+}
+.sign-up(@width, @padding){
+    background:  #23293B;
+    color: white;
+    padding: @padding;
+    width: @width;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
