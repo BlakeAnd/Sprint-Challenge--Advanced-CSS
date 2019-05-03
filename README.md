@@ -38,19 +38,19 @@ Adaptive is an older model of accounting for different screen sizes, it uses inf
 
 2. Describe what it means to be mobile first vs desktop first.
 
-mobile first means you style a site primarily as if it were being viewed on a small mobile screen. Then you add media queries to change the styling for larger screen types. Desktop first is the opposite, you design at the largest screen size then make adjustments for smaller ones. 
+Mobile first means you style a site primarily as if it were being viewed on a small mobile screen. Then you add media queries to change the styling for larger screen types. Desktop first is the opposite, you design at the largest screen size then make adjustments for smaller ones. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-Converts the root size of the font from 16px to 10px, allowing for easier conversions of size for those working on the code. 
+It converts the root font size of the font from 16px to 10px, allowing for easier conversions of size for those working on the code. 
 
 4. How would you describe preprocessing to someone new to CSS?
 
-Preprocessing is a way to organize and add extra functionality to writing css. You write code slighlty different from how css is normally written, then it gets converted into css to run on your page by a compiler. 
+Preprocessing allows us to better organize and add extra functionality to writing css. You write code in slighty different format from how css is normally written, it gives you extra capabilities but can not be understood by the browser. It gets converted into css to run on your page by a compiler. 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-Favorite: parametirc mixins. Most trouble: jumping around the different files;
+Favorite: mixins. Most trouble: jumping around the different files.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
